@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose="5">
+	<parameter name="browserType" value="FF" />
+	
+	<test name="Test1">
+		<classes>
+			<class name="guru.magento.TC001_MobileList" />
+		</classes>
+	</test> <!-- Test -->
+	
+	<test name="Test2">
+		<classes>
+			<class name="guru.magento.TC002_MobilePriceCheck" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Test3">
+		<classes>
+			<class name="guru.magento.TC003_PurchaseQty" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Test4">
+		<classes>
+			<class name="guru.magento.TC004_CompareProducts" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Test4_1">
+		<classes>
+			<class name="guru.magento.TC004_1_CompareProducts" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Test5">
+		<classes>
+			<class name="guru.magento.TC005_NewAcctAndMsg" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Test6">
+		<classes>
+			<class name="guru.magento.TC006_PurchaseWithRegEmail" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Test7">
+		<classes>
+			<class name="guru.magento.TC007_OrderSavedAsFile" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Test8">
+		<classes>
+			<class name="guru.magento.TC008_ReOrderProduct" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Test9">
+		<classes>
+			<class name="guru.magento.TC009_DiscountCoupon" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Test10">
+		<classes>
+			<class name="guru.magento.TC010_ExportOrdersFileAndEmail" />
+		</classes>
+	</test> <!-- Test -->
+
+
+</suite> <!-- Suite -->
+
+
+
+
