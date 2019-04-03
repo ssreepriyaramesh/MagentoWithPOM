@@ -5,7 +5,7 @@ import java.io.IOException;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-import testutil.BasePage;
+import pageutil.BasePage;
 
 public class OrderDetPage extends BasePage{
 

@@ -3,7 +3,7 @@ package guru.magento;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-import testutil.BasePage;
+import pageutil.BasePage;
 
 public class MyAcctPage extends BasePage{
 
