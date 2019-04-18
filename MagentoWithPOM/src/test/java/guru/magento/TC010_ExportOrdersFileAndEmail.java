@@ -99,7 +99,7 @@ public class TC010_ExportOrdersFileAndEmail extends TestBaseClass {
 		String EMAIL_ATTCHMT_PATH = null;
 		
 		if (strDownloadFileFmt.equals("CSV")) {
-			EMAIL_ATTCHMT_PATH = "C:\\JavaProjects\\MagentoWithPOM\\Downloads\\orders.csv";
+			EMAIL_ATTCHMT_PATH = System.getProperty("user.dir") + "//Downloads//orders.csv";
 			attachment = new EmailAttachment();
 			attachment.setPath(EMAIL_ATTCHMT_PATH);
 			attachment.setDisposition(EmailAttachment.ATTACHMENT);
