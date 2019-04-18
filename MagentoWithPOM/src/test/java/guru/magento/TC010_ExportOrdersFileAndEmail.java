@@ -59,7 +59,7 @@ public class TC010_ExportOrdersFileAndEmail extends TestBaseClass {
 		Thread.sleep(10000);
 
 		if (strDownloadFileFmt.equals("CSV")) {
-			String FILE_PATH = "C:\\JavaProjects\\MagentoWithPOM\\Downloads\\orders.csv";
+			String FILE_PATH = System.getProperty("user.dir") + "//Downloads//orders.csv";
 
 			CSVReader reader = new CSVReader(new FileReader(FILE_PATH));
 			List<String[]> val = reader.readAll();
