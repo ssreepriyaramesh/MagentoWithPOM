@@ -94,6 +94,6 @@ public class TC007_OrderSavedAsFile extends TestBaseClass{
 		
 		logger.info("In the TC007_OrderSavedAsFile Class - saveOrderAsFile");
 		orderDetPg.printOrderAndSaveFile();
-		logger.info("Orders file saved to the folder: C:\\JavaProjects\\MagentoWithPOM");
+		logger.info("Orders file saved to the folder: Downloads");
 	}
 }

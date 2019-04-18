@@ -30,7 +30,7 @@ public class OrderDetPage extends BasePage{
 		driver.findElement(loc_lnkPrintOrder).click();
 		
 		Thread.sleep(3000);
-		Runtime.getRuntime().exec("C:\\JavaProjects\\MagentoWithPOM\\PrintOrderScript.exe");
+		Runtime.getRuntime().exec(System.getProperty("user.dir") + "//PrintOrderScript.exe");
 		Thread.sleep(20000);
 	}
 	

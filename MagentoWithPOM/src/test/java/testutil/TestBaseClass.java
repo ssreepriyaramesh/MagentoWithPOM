@@ -40,8 +40,8 @@ public class TestBaseClass {
 			FirefoxOptions options = new FirefoxOptions();
 			options.addPreference("browser.download.folderList", 2);
 			options.addPreference("browser.helperApps.alwaysAsk.force", false);
-			options.addPreference("browser.download.dir", "C:\\JavaProjects\\MagentoWithPOM\\Downloads"); 
-			options.addPreference("browser.download.defaultFolder","C:\\JavaProjects\\MagentoWithPOM\\Downloads"); 
+			options.addPreference("browser.download.dir", System.getProperty("user.dir") + "//Downloads"); 
+			options.addPreference("browser.download.defaultFolder", System.getProperty("user.dir") + "//Downloads"); 
 			options.addPreference("browser.download.manager.showWhenStarting", false);
 			options.addPreference("browser.helperApps.neverAsk.saveToDisk","multipart/x-zip,application/zip,application/x-zip-compressed,application/x-compressed,application/msword,application/csv,text/csv,image/png ,image/jpeg, application/pdf, text/html,text/plain,  application/excel, application/vnd.ms-excel, application/x-excel, application/x-msexcel, application/octet-stream");
 			driver = new FirefoxDriver(options);

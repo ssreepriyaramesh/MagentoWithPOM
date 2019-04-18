@@ -60,7 +60,7 @@ public class TC006_PurchaseWithRegEmail extends TestBaseClass{
 		@Test(priority = 1, description = "create an account", groups = { "functional testing" })
 		public void registerNewUser() {
 			
-			logger.info("In the TC005_NewAcctAndMsg Class - registerNewUser");
+			logger.info("In the TC006_PurchaseWithRegEmail Class - registerNewUser");
 
 			driver.get(TestURL.ECOM_SITE);
 
